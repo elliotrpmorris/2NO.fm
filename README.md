@@ -1,2 +1,1 @@
-# 2NO.fm
-2NO.fm website.
+This is a starter template for [Learn Next.js](https://nextjs.org/learn).
