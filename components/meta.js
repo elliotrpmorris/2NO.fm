@@ -7,7 +7,7 @@ const Meta = ({ show, staticPage }) => (
     {show ? (
       <>
         <title>
-          {show.title} — Syntax Podcast {show.displayNumber}
+          {show.title} — 2NO.fm Podcast {show.displayNumber}
         </title>
         <meta property="og:audio" content={show.url} />
         <meta property="og:audio:secure_url" content={show.url} />
@@ -15,11 +15,11 @@ const Meta = ({ show, staticPage }) => (
         <meta property="og:type" content="music.song" />
         <meta
           property="og:title"
-          content={`${show.title} — Syntax Podcast ${show.displayNumber}`}
+          content={`${show.title} — 2NO.fm Podcast ${show.displayNumber}`}
         />
         <meta
           property="og:url"
-          content={`https://syntax.fm/show/${show.displayNumber}/${slug(
+          content={`https://2no.fm/show/${show.displayNumber}/${slug(
             show.title
           )}`}
         />

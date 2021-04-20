@@ -2,7 +2,7 @@ import Document, { Html, Head, Main, NextScript } from 'next/document';
 import { description } from '../package.json';
 import stylesheet from '../styles/style.styl';
 
-class SyntaxDocument extends Document {
+class TwoNoDocument extends Document {
   render() {
     return (
       <Html lang="en">
@@ -14,7 +14,7 @@ class SyntaxDocument extends Document {
           <meta property="og:description" content={description} />
           <link
             rel="shortcut icon"
-            href="https://syntax.fm/static/favicon.png"
+            href="https://2no.fm/static/favicon.ico"
           />
           <style
             // eslint-disable-next-line react/no-danger
@@ -30,4 +30,4 @@ class SyntaxDocument extends Document {
   }
 }
 
-export default SyntaxDocument;
+export default TwoNoDocument;

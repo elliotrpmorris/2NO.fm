@@ -2,7 +2,7 @@
 number: 2
 title: Elliot new test
 date: 1599256000000
-url: https://traffic.libsyn.com/syntax/syntax001_4.mp3
+url: https://soundcloud.com/skankandbass/lynx-kusp-rap-dude
 ---
 
 ### Show Details

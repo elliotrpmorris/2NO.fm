@@ -6,7 +6,7 @@ const Footer = () => (
     <p>
       Website made with React, Next.js and stylus. The source is on{' '}
       <a
-        href="https://github.com/wesbos/syntax"
+        href="https://github.com/elliotrpmorris"
         target="_blank"
         rel="noopener noreferrer"
       >

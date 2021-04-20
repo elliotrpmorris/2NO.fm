@@ -2,7 +2,7 @@
 number: 1
 title: Episode 1 - Test
 date: 1499256000000
-url: https://traffic.libsyn.com/syntax/syntax001_4.mp3
+url: https://soundcloud.com/skankandbass/lynx-kusp-rap-dude
 ---
 
 ### Show Details
