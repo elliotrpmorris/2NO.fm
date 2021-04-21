@@ -1,0 +1,55 @@
+h1 
+  font-family 'Potta One', cursive
+  margin 0
+
+h2,h3,h4,h5,h6
+  font-family 'Roboto', sans-serif
+  font-weight 100
+  margin 0
+
+html
+  font-size 10px
+
+body
+  font-family: 'Roboto', sans-serif
+  color charcoal
+  line-height: 1.5
+
+li
+  line-height 1.7
+  
+a
+  text-decoration none
+  display inline-block
+  position relative
+  font-family 'Potta One', cursive
+  border-bottom 1px solid orange-yellow-crayola 
+  
+  &:after
+    content ''
+    position absolute
+    width 100%
+    transform scaleX(0)
+    height 2px
+    bottom 0
+    left 0
+    background-color charcoal
+    transform-origin bottom right
+    transition transform 0.4s cubic-bezier(0.86, 0, 0.07, 1)
+  &:hover
+   &:after
+    transform scaleX(1)
+    transform-origin bottom left
+   
+  
+
+.tagline
+  color charcoal
+  font-family 'Potta One', cursive;
+  text-align right
+  font-size 2rem
+  margin 0
+  @media (max-width: 1000px)
+    text-align center
+  @media (max-width: 800px)
+    font-size 1.5rem

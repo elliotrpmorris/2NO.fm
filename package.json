@@ -1,24 +1,65 @@
 {
-  "name": "my-app",
+  "name": "2no-fm",
   "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
+  "description": "The 2NO FM Podcast website. Covering a range of topics from today's society",
+  "engines": {
+    "node": ">=8.1.2"
   },
-  "dependencies": {
-    "date-fns": "^2.11.1",
-    "gray-matter": "^4.0.2",
+  "scripts": {
+    "dev": "next dev --port 420",
+    "build": "next build",
+    "start": "next start",
+    "deploy": "now",
+    "alias": "now alias",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "now": {
+    "alias": [
+      "2NO",
+      "2NO.fm"
+    ]
+  },
+   "dependencies": {
+    "autoprefixer": "10.0.1",
+    "axios": "^0.21.0",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-module-resolver": "4.0.0",
+    "babel-plugin-wrap-in-js": "^1.1.1",
+    "cors": "^2.8.5",
+    "date-fns": "^2.16.1",
+    "express": "^4.17.1",
+    "glob": "7.1.6",
+    "meta-marked": "^0.4.2",
     "next": "^10.0.0",
-    "react": "17.0.1",
-    "react-dom": "17.0.1",
-    "remark": "^12.0.0",
-    "remark-html": "^12.0.0"
+    "next-url-prettifier": "^1.4.0",
+    "now": "^20.1.2",
+    "os": "^0.1.1",
+    "parse-srt": "^1.0.0-alpha",
+    "postcss-easy-import": "3.0.0",
+    "postcss-loader": "4.0.4",
+    "prop-types": "^15.7.2",
+    "raw-loader": "^4.0.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-hls-player": "^1.1.0",
+    "react-icons": "^3.11.0",
+    "speakingurl": "^14.0.1"
   },
   "devDependencies": {
-    "autoprefixer": "^10.2.5",
-    "postcss": "^8.2.10",
-    "tailwindcss": "^2.1.1"
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.12.1",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-config-wesbos": "1.0.1",
+    "eslint-plugin-html": "^6.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "prettier": "^2.1.2",
+    "stylus": "^0.54.8",
+    "stylus-loader": "^4.2.0"
   }
 }
