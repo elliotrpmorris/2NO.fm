@@ -14,7 +14,7 @@ class TwoNoDocument extends Document {
           <meta property="og:description" content={description} />
           <link
             rel="shortcut icon"
-            href="https://2no.fm/static/favicon.ico"
+            href="static/favicon.ico"
           />
           <style
             // eslint-disable-next-line react/no-danger
