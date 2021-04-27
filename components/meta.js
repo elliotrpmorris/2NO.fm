@@ -26,7 +26,7 @@ const Meta = ({ show, staticPage }) => (
       </>
     ) : (
       <title>
-        {staticPage && staticPage.title && `${staticPage.title} – `}Syntax
+        {staticPage && staticPage.title && `${staticPage.title} – `}2NO
         Podcast
       </title>
     )}

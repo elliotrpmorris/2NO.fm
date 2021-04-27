@@ -10,6 +10,14 @@ function Nav() {
             About
           </a>
         </li>
+        <li className="nav__link">
+          <a
+            href="/posts"
+            rel="noopener noreferrer"
+          >
+            Posts
+          </a>
+        </li>
          <li className="nav__link">
           <a
             href="/sponsor"
